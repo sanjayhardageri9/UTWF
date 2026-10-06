@@ -1,0 +1,30 @@
+{
+  "dt_min": 5,
+  "train_days": 28,
+  "val_days": 7,
+  "test_days": 14,
+  "n_harmonics": 6,
+  "fp_harmonics": 8,
+  "weekend_scale": 0.65,
+  "process_noise": 0.08,
+  "process_rho": 0.7,
+  "day_noise": 0.05,
+  "meas_noise": 0.03,
+  "events_per_week": 20,
+  "sev_min": 0.15,
+  "sev_max": 0.6,
+  "dur_min_steps": 6,
+  "dur_max_steps": 36,
+  "label_min_reduction": 0.1,
+  "ewma_alpha": 0.5,
+  "spatial_weight": 0.3,
+  "common_alpha": 0.1,
+  "persistence": 3,
+  "cities_per_topology_fp": 10,
+  "seeds": 5,
+  "topologies": [
+    "grid",
+    "radial",
+    "organic"
+  ]
+}
